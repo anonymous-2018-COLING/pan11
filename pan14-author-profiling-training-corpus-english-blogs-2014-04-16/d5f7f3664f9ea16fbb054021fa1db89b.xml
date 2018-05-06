@@ -1,0 +1,64 @@
+<author type="blog" lang="EN" gender="xx" age_group="xx" url="blogs.fluidinfo.com/terry">
+	<documents count="20">
+		<document id="73dc8f188a78bebeb8facd1deb822c73" url="http://blogs.fluidinfo.com/terry/2012/08/10/sobgtr-occc-aild-funex/"><![CDATA[Suppose you had to pick a very small set of character strings that you, and only you, could identify without hesitation in a particular way. What would you choose? How small a set could you choose and still be unique? For example, SOBGTR OCCC AILD FUNEX? is a set of strings that I think would [&#8230;]
+]]>
+		</document>
+		<document id="b022a5260c1afbed679983d6c8adbcb6" url="http://blogs.fluidinfo.com/terry/2012/10/14/simpler-twisted-deferred-code-via-decorated-callbacks/"><![CDATA[This morning I was thinking about Twisted deferreds and how people find them difficult to grasp, but how they&#8217;re conceptually simple once you get it. I guess most of us tell people a deferred is something to hold a result that hasn&#8217;t arrived yet. Sometimes, though, deferreds do have a result in them immediately (e.g., [&#8230;]
+]]>
+		</document>
+		<document id="98d966f0ad974db8eb0b47e6923f2c0" url="http://blogs.fluidinfo.com/terry/2012/11/11/a-simple-way-to-calculate-the-day-of-the-week-for-any-day-of-a-given-year/"><![CDATA[The other day I read a tweet about how someone was impressed that a friend had been able to tell them the day of the week given an arbitrary date. There are a bunch of general methods to do this listed on the Wikipedia page for Determination of the day of the week. Typically, there [&#8230;]
+]]>
+		</document>
+		<document id="150e9f6e70092e3d175b75fb23702f9b" url="http://blogs.fluidinfo.com/terry/2012/12/04/alternate-browsing-realities/"><![CDATA[I find it interesting to look for things we take for granted, and to ask what the world would look like if the basic assumptions were outlandishly violated. Recently I&#8217;ve been thinking about browsing. What do we all take for granted when browsing? A biggie is that when we click on a link (or open [&#8230;]
+]]>
+		</document>
+		<document id="629eef633f8cf36199fdb523db19834e" url="http://blogs.fluidinfo.com/terry/2012/12/04/max-tabs/"><![CDATA[Here&#8217;s the second of several Chrome and Chromium browser extensions I&#8217;ve recently written. Earlier, I posted some of the background motivation in Alternate browsing realities. After installing Max Tabs, your browser will not allow you to have more than 15 tabs open at once. Any time you try to open more tabs, it will automatically [&#8230;]
+]]>
+		</document>
+		<document id="69de6e2f496979f36e34a668285d432b" url="http://blogs.fluidinfo.com/terry/2012/12/04/open-it-later/"><![CDATA[Here&#8217;s the first of several Chrome and Chromium browser extensions I&#8217;ve recently written. Earlier, I posted some of the background motivation in Alternate browsing realities. After installing Open It Later, your browser will randomly delay following links you click on. That is, instead of following the link in your existing tab, it immediately closes the [&#8230;]
+]]>
+		</document>
+		<document id="823a3aa36807b929585c6ba825e4f8c1" url="http://blogs.fluidinfo.com/terry/2012/12/05/destructive-invasive-and-dangerous-behavior-by-uk-isp-talktalk-aka-stalkstalk/"><![CDATA[Today I spent several hours trying to figure out what was going wrong with a web service I&#8217;ve been building. The service uses websockets to let browsers and the server send messages to each other over a connection that is held open. I built and tested the service locally and it worked fine. But when [&#8230;]
+]]>
+		</document>
+		<document id="41a344e3a3d07263056205569dfa287" url="http://blogs.fluidinfo.com/terry/2012/12/18/omit-needless-parens/"><![CDATA[The famous 17th commandment in The Elements of Style is &#8220;Omit needless words&#8221;. There should be an equivalent in programming, but for parentheses. Every time I see needless parens in a program I want to rip them out (unless they&#8217;re obviously there for formatting/readability reasons). Community service message: Omit needless parens. When in doubt whether [&#8230;]
+]]>
+		</document>
+		<document id="6264e8dcec4c8a00a65db201c72b7c85" url="http://blogs.fluidinfo.com/terry/2012/12/19/a-chrome-extension-for-examining-tab-events-and-ids/"><![CDATA[Yesterday I was on a call with a friend who told me that when he enters a URL into an existing Chrome tab, the tab id changes. He asked if I&#8217;d ever seen that happening, and I said no. I told him his code was probably to blame :-) Anyway, I wrote a quick Chrome [&#8230;]
+]]>
+		</document>
+		<document id="adea8369ed99ff292b58f1f7abc2ae1e" url="http://blogs.fluidinfo.com/terry/2013/01/27/cel-a-chrome-event-logger/"><![CDATA[Last night I wrote CEL, a Chrome Event Logger, a Google Chrome extension that logs all known chrome.* API events to the Javascript console. Example use cases are: You wonder if there is a Chrome API event that&#8217;s triggered for some action you take in the browser. Rather than guessing what the event might be [&#8230;]
+]]>
+		</document>
+		<document id="48d77e9ed7a394fd95c6572a4baf0518" url="http://blogs.fluidinfo.com/terry/2013/02/03/secure-per-site-passwords-with-no-encrypted-blob/"><![CDATA[Last night I read a Guardian article, Online passwords: keep it complicated. It&#8217;s a surprisingly good summary, given that it&#8217;s aimed at the general public. The author concludes by telling us he decided to adopt LastPass, and also mentions 1Password. The comments section on the page gives similar solutions, like KeePass. The security-conscious people I [&#8230;]
+]]>
+		</document>
+		<document id="9aa7a79953099d6f7748b6ce181bcf4d" url="http://blogs.fluidinfo.com/terry/2013/02/05/daylight-robbery-barclays-skims-e170-off-a-5k-eur-gbp-transfer/"><![CDATA[Last month (on Jan 18, 2013) someone I&#8217;m doing some work for initiated a transfer of €5,000 into my UK bank account. According to xe.com the mid-market rate that day was 1.1937940679 euros per pound. So you might innocently expect to receive about 5,000 / 1.1937940679 = £4,188 minus any transfer fees. The transfer went [&#8230;]
+]]>
+		</document>
+		<document id="fe9639da7ad8a9782b9c405f8b7d1394" url="http://blogs.fluidinfo.com/terry/2013/05/23/ten-days-in-hospital/"><![CDATA[I&#8217;m about to check out of Addenbrookes Hospital in Cambridge after a 10-day stay, 8 of them in isolation. The short story: I got a rash, and it took over my body. Below are some notes on what&#8217;s been going on, along with a few images. You can see the full set of images at [&#8230;]
+]]>
+		</document>
+		<document id="cb636dc45d2fca49c3c84e737494c02a" url="http://blogs.fluidinfo.com/terry/2013/06/20/yet-another-cancelable-twisted-deferred-class/"><![CDATA[I&#8217;m posting this (completely untested!) to illustrate how one could write a class to provide a Twisted deferred-like class, identical to the twisted.internet.defer.Deferred class, but which lets you call callback, errback, or cancel on the instance yourself. Hopefully that will make some sense. If not, let me know in the comments and I&#8217;ll try to [&#8230;]
+]]>
+		</document>
+		<document id="8ae950ce652a6c7d60e06361e075540" url="http://blogs.fluidinfo.com/terry/2013/07/27/jquery-when2-a-more-flexible-way-to-work-with-jquery-deferreds/"><![CDATA[I&#8217;ve often been frustrated by the limited functionality of jQuery.when. You give it some deferred objects and it fires when all the deferreds are finished. The trouble is, if any of the deferreds is rejected the deferred returned by jQuery.when fires immediately. So you can&#8217;t use it to collect the results of all deferreds including [&#8230;]
+]]>
+		</document>
+		<document id="cd652da3edfa124ba89e49ec270b9ea0" url="http://blogs.fluidinfo.com/terry/2013/07/30/1793-viruses/"><![CDATA[In case you missed it, I spent ten days in hospital this past May (2013). When they took the skin biopsy from my arm, I got them to take 2 samples. One of them, along with a throat and skin swab was later sent to the virologists I do some work with in the Viroscience [&#8230;]
+]]>
+		</document>
+		<document id="6e9116c2ac23fb70a0532acd55e1be37" url="http://blogs.fluidinfo.com/terry/2013/09/05/the-mockery-pervading-human-affairs-in-all-their-aspects/"><![CDATA[From Tacitus, on the eventual rise of Claudius to Roman emperor, from The Annals of Imperial Rome (Penguin Classics, p127): The more I think about history, ancient or modern, the more ironical all human affairs seem. In public opinion, expectation, and esteem no one appeared a less likely candidate for the throne than the man [&#8230;]
+]]>
+		</document>
+		<document id="b0380e9d7f1941f6de26483ad7694eca" url="http://blogs.fluidinfo.com/terry/2013/09/12/promises-are-first-class-objects-for-function-calls/"><![CDATA[Have you ever programmed in a language without functions as first-class objects? You can&#8217;t return a function from a function, can&#8217;t pass a function as an argument, and you certainly can&#8217;t make anonymous functions on the fly. Remember how liberating, empowering, and flexible it felt when you moved to a language with functions as first-class [&#8230;]
+]]>
+		</document>
+		<document id="9d4394bd8693d619bfdaa2227e6b2bd3" url="http://blogs.fluidinfo.com/terry/2013/12/30/txdlo-a-twisted-deferred-list-observer/"><![CDATA[Last night I wrote txdlo, a Python package that provides a class called DeferredListObserver. As you might guess, it lets you observe callback and errback events from a list of Twisted deferreds. You can add observers that will be passed information about deferreds firing. You can add deferreds to the observed list at any time, [&#8230;]
+]]>
+		</document>
+		<document id="f15597ab863a99014d839fc3400b2791" url="http://blogs.fluidinfo.com/terry/2014/01/07/learning-jquery-deferreds-published/"><![CDATA[Nicholas Tollervey and I have written a book, Learning jQuery Deferreds, published by O&#8217;Reilly. If you&#8217;ve been a reader of this blog over the years, you may have noticed that I&#8217;m very fond of deferreds (also known as promises or futures). I&#8217;ve mainly been using them in Python with Twisted, and a couple of years [&#8230;]
+]]>
+		</document>
+	</documents>
+</author>

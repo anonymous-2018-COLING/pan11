@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (Authorship)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Authorship" />
+    <orderEntry type="module" module-name="multi_task" />
+    <orderEntry type="module" module-name="capsules" />
+    <orderEntry type="module" module-name="Authorship" />
+    <orderEntry type="module" module-name="cnn-text-classification-tf" />
+    <orderEntry type="module" module-name="yushuai" />
+    <orderEntry type="module" module-name="sina_dadta" />
+    <orderEntry type="module" module-name="sina_dadta" />
+    <orderEntry type="module" module-name="ptb" />
+  </component>
+</module>

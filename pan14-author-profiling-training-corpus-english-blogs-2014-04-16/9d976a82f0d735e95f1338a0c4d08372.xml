@@ -1,0 +1,99 @@
+<author type="blog" lang="EN" gender="xx" age_group="xx" url="www.chato.cl/blog/en">
+	<documents count="10">
+		<document id="15310246f38745c66d29a3759822cc25" url="http://chato.cl/blog/en/2012/12/social_media_hoaxes_slate.html"><![CDATA[<p><img src="http://chato.cl/blog/files/slate_estudio_twitter.jpg" align="right" /><em>Slate.com writes about our upcoming study on Internet Research extending our findings presented in "<a href="http://chato.cl/papers/castillo_mendoza_poblete_2010_twitter_credibility.pdf">Information Credibility on Twitter</a>" [pdf].</em></p>
+<p><strong>Social media hoaxes: Could machine-learning algorithms help debunk Twitter rumors before they spread?</strong></p>
+<p>...</p>
+<p>In a new paper, to be published in the journal Internet Research next month, the authors of the Chile earthquake study—Carlos Castillo, Marcelo Mendoza, and Barbara Poblete—test out their algorithm on fresh data sets and find that it works pretty well. According to Meier, their machine-learning classifier had an AUC, or “area under the curve,” of 0.86. That means that, when presented with a random false tweet and a random true tweet, it would assess the true tweet as more credible 86 percent of the time. (An AUC of 1 is perfect; an AUC of 0.5 is no better than random chance.)</p>
+<p>My guess is that a knowledgeable and experienced human Twitter user could do better than that under most circumstances. And of course, if a given algorithm became widespread, committed trolls like the Hurricane Sandy villain @ComfortablySmug could find ways to game it. Still, an algorithm has the potential to work much faster than a human, and as it improves, it could evolve into an invaluable "first opinion" for flagging news items on Twitter that might not be true.</p>
+<p>...</p>
+<p><strong>Source: <a href="http://www.slate.com/articles/technology/future_tense/2012/12/social_media_hoaxes_could_machine_learning_debunk_false_twitter_rumors_before.html">Slate.com</a></strong></p>
+
+]]>
+		</document>
+		<document id="d827b562dd992d6ccc291d2df7b9fd01" url="http://chato.cl/blog/en/2013/01/signal_or_noise_credibility_and_quality_issues_on_the_web_and_social_media.html"><![CDATA[<p>I am glad to announce the third edition of the Web Quality workshop, to be held on May 13th, 2013 in Rio de Janeiro, Brazil. The workshop is co-located with the World Wide Web conference.</p>
+<p><a href="http://www.dl.kuis.kyoto-u.ac.jp/webquality2013/"><img src="http://chato.cl/blog/files/webquality-logo-300px.png" align="right" /></a>This year's theme is the question: <strong>Signal or Noise?</strong>. The Web and social media keep on growing and playing an ever increasing role in our lives. In this context, finding relevant, timely and trustworthy content in a sea of seemingly irrelevant chatter remains a challenging research issue. </p>
+<p>The workshop will bring together practitioner and researchers working on key problem areas such as modelling trust and author reputation, detecting abuse and spam, finding high-quality content, uncovering plagiarism, among other topics.</p>
+<p><strong>Website: <a href="http://www.dl.kuis.kyoto-u.ac.jp/webquality2013/">WebQuality 2013 &raquo;</a></strong></p>
+
+]]>
+		</document>
+		<document id="7288495a9d1bffde0b70067477036d8d" url="http://chato.cl/blog/en/2013/04/nowhere_to_hide_the_next_manhunt_will_be_crowdsourced.html"><![CDATA[<p><strong><a href="http://www.newscientist.com/article/dn23427-nowhere-to-hide-the-next-manhunt-will-be-crowdsourced.html">New Scientist 2914, 23 April 2013</a> (free registration required) describes our proyect <a href="http://veri.ly/">Veri.ly</a>:</strong></p>
+<p><img src="http://chato.cl/blog/files/verily_ns.png" align="right" />... A big problem with theories floated on social media is that information can go viral simply because it is popular, whether or not it is true. Patrick Meier of the Qatar Computing Research Institute (QCRI) in Doha is building Verily, a system that allows users to submit verification requests for information they are interested in. Each request prompts a crowd of online workers to set off into their networks to figure it out. The system gathers evidence for and against the claim, though it won't pass judgement.</p>
+<p>...By training machine learning algorithms on huge data sets, Meier is building up profiles of the classes of digital evidence that tend to be credible, and those that are not.</p>
+<p>As an example, Meier points to a recent study of misinformation on Twitter after the 2010 Chilean earthquake. Carlos Castillo of the QCRI and colleagues showed that non-credible tweets tend to spark responses that question or rebuke them – a trait software can be trained to recognise. "Non-credible information propagates across the twittersphere leaving very specific ripples behind," says Meier. "You could absolutely start having a probability – a percentage chance that particular tweets are not credible."</p>
+<p><strong>Full article in <a href="http://www.newscientist.com/article/dn23427-nowhere-to-hide-the-next-manhunt-will-be-crowdsourced.html">New Scientist (free registration required) »</a></strong></p>
+
+]]>
+		</document>
+		<document id="b2872fd1a3424dc6eabab600c45d4755" url="http://chato.cl/blog/en/2013/05/best_paper_award_iscram_2013.html"><![CDATA[<p>Congratulations to my colleagues M. Imran (QCRI), S. Elbassuoni (Beirut University), F. Diaz (Microsoft) and P. Meier (QCRI) for a best paper award at the ISCRAM conference. ISCRAM is the main international conference on systems for crisis response and management.</p>
+<p><img src="http://chato.cl/blog/files/nuggets_emergency.png" align="center" /></p>
+<p>Our work, described in the two papers below (specially on the first one), describes a method to extract information <em>nuggets</em> from tweets related to emergencies. For instance, we can go beyond detecting that a tweet is about a donation to identify <em>which</em> is the item being donated (e.g. clothes, money, etc.).</p>
+<ul>
+<li>Muhammad Imran, Shady Elbassuoni, Carlos Castillo, Fernando Diaz and Patrick Meier: <a class="paper" href="http://chato.cl/papers/imran_elbassuoni_castillo_diaz_meier_2013_practical_extraction_disaster_crisis.pdf">Practical Extraction of Disaster-Relevant Information from Social Media</a>. In SWDM. Rio de Janeiro, Brazil, 2013.</li>
+<li>Muhammad Imran, Shady Mamoon Elbassuoni, Carlos Castillo, Fernando Diaz, and Patrick Meier: <a class="paper" href="http://chato.cl/papers/imran_elbassuoni_castillo_diaz_meier_2013_extracting_information_nuggets_disasters.pdf">Extracting Information Nuggets from Disaster-Related Messages in Social Media</a>. In ISCRAM. Baden-Baden, Germany, 2013.</li>
+</ul>
+<p>Official <a href="http://www.qcri.com/media-resources/in-the-news/latest-news-details?item=202&amp;backArt=1">announcement</a> at QCRI website.</p>
+
+]]>
+		</document>
+		<document id="feebec502a26995cb6876198dceb8b6b" url="http://chato.cl/blog/en/2013/05/news_and_social_media_snow_2013_keynote.html"><![CDATA[<p>Slides from keynote at the <a href="http://snow2013.isti.cnr.it/">Social News on the Web</a> Workshop. Rio de Janeiro, Brazil, May 2013. </p>
+<p><iframe src="http://www.slideshare.net/slideshow/embed_code/21120111?rel=0" width="512" height="421" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe></p>
+
+]]>
+		</document>
+		<document id="73390a9686d9f67635990c4f74720ec" url="http://chato.cl/blog/en/2013/06/following_the_social_media_crowd_to_discover_news_stories.html"><![CDATA[<p>With Janette Lehmann (UPF), Mounia Lalmas (Yahoo!) and Ethan Zuckerman (MIT Civic Media), we developed an automatic method (<a href="http://chato.cl/papers/lehmann_castillo_lalmas_zuckerman_2013_transient_news_crowds.pdf">pdf</a>, <a href="http://crowdresearch.org/blog/?p=6665">blog post</a>) that groups together all the users who tweet a particular news item, and later detects new contents posted by them that are related to the original news item.</p>
+<p><a href="http://crowdresearch.org/blog/?p=6665"><img src="http://chato.cl/blog/files/crowds_idea.jpg" align="center" /></a></p>
+<p>We call each such group a transient news crowd. The beauty of this approach, in addition to being fully automatic, is that there is no need to pre-define topics and the crowd becomes available immediately, allowing journalists to cover news beats incorporating the shifts of interest of their audiences.</p>
+<p><strong><a href="http://crowdresearch.org/blog/?p=6665">Continue reading at crowdresearch.org &raquo;</a></strong></p>
+
+]]>
+		</document>
+		<document id="fe357c3a6392a5b63aebe19e02cc009b" url="http://chato.cl/blog/en/2013/08/al_jazeera_and_qcri_launch_platform_that_predicts_traffic_to_news_articles.html"><![CDATA[<p><strong>QCRI/AJE press release: <a href="http://www.qcri.qa/media-resources/press-releases/press-releases-details?item=227&amp;backArt=75">QCRI and Al Jazeera launch predictive web analytics platform for news</a></strong></p>
+<p>New platform developed by QCRI and Al Jazeera can predict visits to news articles by taking cues from social media</p>
+<div style="text-align: center; border-top: solid 1px black; border-bottom: solid 1px black; padding: 8px;"><em><big>Try it! <a href="http://fast.qcri.org/">http://fast.qcri.org/</a></big></em></div>
+<p>News organisations have vast archives of information, as well as a number of web analytic tools that aid in allocating editorial resources to cover different news events, and capitalise on this information. These tools allow editors and media managers to react to shifts in their audience’s interest, but what is lacking is a tool to help predict such shifts.</p>
+<p><img src="http://chato.cl/blog/files/fast_graph_small_png.jpeg" align="center" /></p>
+<p>Qatar Computing Research Institute (QCRI) and Al Jazeera are announcing the launch of FAST (Forecast and Analytics of Social Media and Traffic), a platform that analyses in real-time the life cycle of news stories on the web and social media, and provides predictive analytics that gauge audience interest.</p>
+<p>“The explosion of big data in the media domain has provided QCRI an excellent research opportunity to develop an innovative way to derive value from the information,” said Dr Ahmed Elmagarmid, Executive Director of QCRI. “Together with our valued partner, Al Jazeera, the QCRI team has developed a platform that will help shift the way media does business.”</p>
+<p>“Al Jazeera English’s website thrives on good original content in news and features, dynamic ways of creativity through interactive and crowd sourcing methods, and up-to-date social media tools. We welcome working with QCRI in developing FAST as it allows us to understand the consumption of news and what is expected to do well in driving traffic forward. Analytics in predicting the future trend of a web story is a crucial component in understanding web traffic, this initiative is a component we welcome,” said Imad Musa, Head of Online for Al Jazeera English.</p>
+<p><img src="http://chato.cl/blog/files/fast_predictions_small.png.jpeg" align="center" /></p>
+<p><strong>You can test the platform at <a href="http://fast.qcri.org/">http://fast.qcri.org/</a></strong> and read the full <a href="http://www.qcri.qa/media-resources/press-releases/press-releases-details?item=227&amp;backArt=75">press release at the QCRI website</a>. The system is based on research described in the following paper:</p>
+<ul>
+<li>Carlos Castillo, Mohammed El-Haddad, Jürgen Pfeffer and Matt Stempeck: <a class="paper" href="http://chato.cl/papers/castillo_elhaddad_pfeffer_stempeck_2013_news_lifecycle.pdf">Characterizing the Life Cycle of Online News Stories Using Social Media Reactions</a>. Submitted for publication. [<a href="http://arxiv.org/abs/1304.3010">arxiv pre-print</a>|<a href="http://studentview.com.au/predicting-publication-popularity-social-medias-role/">review by s.v.</a>]</li>
+</ul>
+
+]]>
+		</document>
+		<document id="4471ad2285414332943c17d14cde2596" url="http://chato.cl/blog/en/2013/09/how_ai_twitter_and_digital_volunteers_are_transforming_humanitarian_disaster_response.html"><![CDATA[<p><img src="http://chato.cl/blog/files/tweetclicker_screenshot2.jpg" align="right" /><strong>Wired UK, 30 September 2013.<strong></strong></strong></p>
+<p><strong>Katie Collins covers part of our work in <a href="http://www.qcri.com/our-research/social-computing">Social Computing</a> and <a href="http://www.qcri.com/our-research/social-innovation">Social Innovation</a> at QCRI:</strong></p>
+<p>On 24 September a 7.7-magnitude earthquake struck south-west Pakistan, killing at least 300 people. The following day Patrick Meier at the Qatar Computer Research Institute (QCRI) received a call from the UN Office for the Coordination of Humanitarian Affairs (OCHA) asking him to help deal with the digital fallout -- the thousands of tweets, photos and videos that were being posted on the web containing potentially valuable information about the disaster.</p>
+<p>[...] <a href="http://aidr.qcri.org/">AIDR (Artificial Intelligence for Disaster Response)</a> was the second project tested for the first time during the Pakistan floods, and is due to be launched officially at the CrisisMappers conference in Nairobi in November. It's an open-source tool relying on both human and machine computing, allowing human users to train algorithms to automatically classify tweets and determine whether or not they are relevant to a particular disaster.</p>
+<p>In Pakistan, SBTF volunteers tagged 1,000 tweets, out of which 130 were used to create a classifier and train an algorithm that could be used to recognise relevant tweets with up to 80 percent accuracy ...</p>
+<p><a href="http://www.wired.co.uk/news/archive/2013-09/30/digital-humanitarianism">Full article in Wired UK</a>.</p>
+
+]]>
+		</document>
+		<document id="d92b7644704eb514271cc386c426dd08" url="http://chato.cl/blog/en/2013/11/new_book_information_and_influence_propagation_in_social_networks.html"><![CDATA[<p>I had the privilege to work with <a href="http://research.microsoft.com/en-us/people/weic/">Wei Chen</a> (Microsoft Research) and <a href="http://www.cs.ubc.ca/~laks/">Laks V.S. Lakshmanan</a> (University of British Columbia) on a book for the Synthesis Lectures on Data Management series, edited by M. Tamer Özsu and published by Morgan and Claypool.</p>
+<blockquote><p><a href="http://www.morganclaypool.com/doi/abs/10.2200/S00527ED1V01Y201308DTM037"><img align="right" src="http://chato.cl/research/files/influence_prop_277x345.png" width="160" /></a>This book starts with a detailed description of well-established diffusion models, including the independent cascade model and the linear threshold model, that have been successful at explaining propagation phenomena. We describe their properties as well as numerous extensions to them, introducing aspects such as competition, budget, and time-criticality, among many others. We delve deep into the key problem of influence maximization, which selects key individuals to activate in order to influence a large fraction of a network. Influence maximization in classic diffusion models including both the independent cascade and the linear threshold models is computationally intractable, more precisely #P-hard, and we describe several approximation algorithms and scalable heuristics that have been proposed in the literature. Finally, we also deal with key issues that need to be tackled in order to turn this research into practice, such as learning the strength with which individuals in a network influence each other, as well as the practical aspects of this research including the availability of datasets and software tools for facilitating research. We conclude with a discussion of various research problems that remain open, both from a technical perspective and from the viewpoint of transferring the results of research into industry strength applications</p></blockquote>
+<p><strong>The book is available for USD 20 or through many libraries:</strong>
+<ul>
+<li>Wei Chen, Laks V.S. Lakshmanan, Carlos Castillo: <strong><a href="http://www.morganclaypool.com/doi/abs/10.2200/S00527ED1V01Y201308DTM037">Information and Influence Propagation in Social Networks</a></strong>. Synthesis Lectures on Data Management. Morgan and Claypool Publishers, Oct. 2013. [<a href="dx.doi.org/10.2200/S00527ED1V01Y201308DTM037">doi</a>].</li>
+</ul>
+</p><p><strong>Two chapters are available for free:</strong>
+<ul>
+<li><a href="http://www.morganclaypool.com/doi/suppl/10.2200/S00527ED1V01Y201308DTM037/suppl_file/Chen_Ch1.pdf">Chapter 1: Introduction</a> available for free.</li>
+<li><a href="http://chato.cl/papers/chen_lakshmanan_castillo_2013_information_influence_propagation_social_networks-CH6_Software_and_Tools.pdf">Chapter 6: Data and Software</a> pre-review version available.</li>
+</ul>
+</p>
+]]>
+		</document>
+		<document id="3e35a3332f28194f151d007007918497" url="http://chato.cl/blog/en/2013/11/social_media_news_mining_and_automatic_content_analysis_of_news.html"><![CDATA[<p><a href="http://new.livestream.com/accounts/1079539/events/2542929">Presentation</a> on November 14th, 2013 at the <a href="http://towcenter.org/">Tow Center</a>, Columbia Journalism School. (New York, USA).</p>
+<p><iframe src="https://new.livestream.com/accounts/1079539/events/2542929/videos/34838951/player?width=510&amp;height=287&amp;autoPlay=false&amp;mute=false" width="510" height=287" frameborder="0" scrolling="no"></iframe></p>
+<ul>
+<li>Carlos Castillo: <a href="http://www.slideshare.net/ChaToX/social-media-news-mining-and-automatic-content-analysis-of-news">Social Media News Mining and Automatic Content Analysis of News</a>. Invited talk at Tow Center, Columbia University. New York City, USA, 2013. [<strong><a href="http://new.livestream.com/accounts/1079539/events/2542929">VIDEO</a></strong>|<a href="http://towcenter.org/blog/how-to-predict-news-article-traffic/">blogpost</a>|<a href="http://towcenter.org/events/conversation-with-carlos-castillo/">invitation</a>]</li>
+</ul>
+
+]]>
+		</document>
+	</documents>
+</author>

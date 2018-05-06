@@ -1,0 +1,50 @@
+<author type="blog" lang="EN" gender="xx" age_group="xx" url="redhat.at/blog/1">
+	<documents count="8">
+		<document id="9708b1898c95b31561b4b2d737e80287" url="http://linux-kernel.at/node/226"><![CDATA[<p>I really need to note this in a few sentences.</p>
+<p>If you ever encounter the problem, that you cannot establish a VPN/PPTP connection using A1 UMTS; Call them, tell them they are stupid and should deactivate the firewall.</p>
+<p>Oh yes. You read correctly. They now have a firewall, that actually blocks the GRE protocol (outgoing).</p>
+<p>Is this stupid? Yes. Very stupid!</p>
+<p>Perfect service A1! Makes more problems than it helps!</p>
+
+]]>
+		</document>
+		<document id="ec98815c9759b504b954d3cd56a7c3ef" url="http://linux-kernel.at/node/42"><![CDATA[<p>Yes, <a href="/freelinking/AlphaCore">AlphaCore</a> has me again. I reinstalled my DS10, after <a href="/freelinking/MikeBarnes">MikeBarnes</a> sent me some memory. Memory is bad, so I had to buy some more on ebay. However, finally I got the machine up'n'running and now I'm reporting bugs, patching for alpha, waiting for gcc, binutils, glibc and so on to produce good rpms. <img src="http://linux-kernel.at/modules/smileys/examples/smile.png" title="Smiling" alt="Smiling" class="smiley-content"/></p>
+<p>You may know, gcc takes very long to compile on a reasonable fast (x86-based) machine... It takes much longer on our good ol' Alphas. <img src="http://linux-kernel.at/modules/smileys/examples/smile.png" title="Smiling" alt="Smiling" class="smiley-content"/></p>
+<p><a href="http://linux-kernel.at/node/42">read more</a></p>
+]]>
+		</document>
+		<document id="8cda5d0321afc9158c31a250b863df9d" url="http://linux-kernel.at/node/43"><![CDATA[<p>And Fedora also has me again. I'm now officially an Ambassador for Austria: http://fedoraproject.org/wiki/<a href="/freelinking/OliverFalk">OliverFalk</a>.</p>
+<p>Why? Just for fun, just because I like Fedora and just because of <a href="/freelinking/AlphaCore">AlphaCore</a>, which is based on Fedora.</p>
+
+]]>
+		</document>
+		<document id="470b76ae15652735c7f4bf4463642a82" url="http://linux-kernel.at/node/46"><![CDATA[<p>Nothing more to say: http://www.artlebedev.com/everything/optimus/price-compare/</p>
+
+]]>
+		</document>
+		<document id="f089d037ececfeada8c902843c7c8ac0" url="http://linux-kernel.at/node/50"><![CDATA[<p>It's some time ago since my last post. Bad /me. I'm really working hard on the new buildsystem for <a href="/freelinking/AlphaCore">AlphaCore</a>. Or better said for Fedora 8 Alpha.</p>
+<p>Since <a href="http://fedoraproject.org/wiki/Koji">Koji</a> (the new Fedora <a href="/freelinking/BuildSystem">BuildSystem</a>) doesn't come with a good documentation, it was quite hard to setup and understand.</p>
+<p>However, I manged it and it's now available here: http://buildsys.zero42.at/koji/.</p>
+<p>It will stay there for now. <img src="http://linux-kernel.at/modules/smileys/examples/smile.png" title="Smiling" alt="Smiling" class="smiley-content"/></p>
+<p>Some more docs on how to set it up: http://wiki.linux-kernel.at/index.php/Koji. I should really  put this on Fedora Wiki <img src="http://linux-kernel.at/modules/smileys/examples/tongue.png" title="Sticking out tongue" alt="Sticking out tongue" class="smiley-content"/></p>
+
+]]>
+		</document>
+		<document id="ef1355b78381c058323703c8e75bd295" url="http://linux-kernel.at/node/51"><![CDATA[<p>Well, posting my blog, that's true. I'm really lazy, but there are so many things going on at the moment; I'd really like to tell, but it's all confidential. <img src="http://linux-kernel.at/modules/smileys/examples/tongue.png" title="Sticking out tongue" alt="Sticking out tongue" class="smiley-content"/></p>
+<p>Well. We (<a href="/freelinking/AlphaCore">AlphaCore</a> team) have lost Christian Balint and Red Hat lost him as well. He was offered with a good job opportunity and took it. Since this job will make him traveling a lot and also will require him to work hard, he will not have time to do much of our <a href="/freelinking/AlphaCore">AlphaCore</a> thingy.</p>
+<p><a href="http://linux-kernel.at/node/51">read more</a></p>
+]]>
+		</document>
+		<document id="381322fc49dc5f76a51a3edfb05add69" url="http://linux-kernel.at/node/59"><![CDATA[<p>I'm trying to fix the notify... Currently the links are broken. Sorry!</p>
+
+]]>
+		</document>
+		<document id="88a2558ae31dc1e62143b1dc8e573e0d" url="http://linux-kernel.at/node/655"><![CDATA[<p>We - especially I - do think about giving away redhat.at. Not to *someone*, but to Red Hat (http://redhat.com)!<br />
+I really like the domain. I know some of you do also...</p>
+<p>I'd be happy to receive comments if someone has to say anything <img src="http://linux-kernel.at/modules/smileys/examples/smile.png" title="Smiling" alt="Smiling" class="smiley-content"/></p>
+<p>Keep watching http://redhat.at and be informed that this site will not die! It will stay online as http://linux-kernel.at and http://open-source.at (at least). <img src="http://linux-kernel.at/modules/smileys/examples/smile.png" title="Smiling" alt="Smiling" class="smiley-content"/></p>
+
+]]>
+		</document>
+	</documents>
+</author>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:/Authorship/.idea/Authorship.iml" filepath="E:/Authorship/.idea/Authorship.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/GitHub/models/research/capsules/.idea/capsules.iml" filepath="$USER_HOME$/Documents/GitHub/models/research/capsules/.idea/capsules.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/GitHub/cnn-text-classification-tf/.idea/cnn-text-classification-tf.iml" filepath="$USER_HOME$/Documents/GitHub/cnn-text-classification-tf/.idea/cnn-text-classification-tf.iml" />
+      <module fileurl="file://F:/multi_task/.idea/multi_task.iml" filepath="F:/multi_task/.idea/multi_task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pan11.iml" filepath="$PROJECT_DIR$/.idea/pan11.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/GitHub/models/tutorials/rnn/ptb/.idea/ptb.iml" filepath="$USER_HOME$/Documents/GitHub/models/tutorials/rnn/ptb/.idea/ptb.iml" />
+      <module fileurl="file://F:/sina/.idea/sina_dadta.iml" filepath="F:/sina/.idea/sina_dadta.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/yushuai/.idea/yushuai.iml" filepath="$USER_HOME$/Desktop/yushuai/.idea/yushuai.iml" />
+    </modules>
+  </component>
+</project>

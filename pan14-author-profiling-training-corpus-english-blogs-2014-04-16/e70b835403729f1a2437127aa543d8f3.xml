@@ -1,0 +1,34 @@
+<author type="blog" lang="EN" gender="xx" age_group="xx" url="edgar.meij.pro">
+	<documents count="10">
+		<document id="868c3d197212cd5b935c3d1b20577a6d" url="http://feedproxy.google.com/~r/EdgarMeij/~3/56r7JqEp1ag/"><![CDATA[To appear in BMC Public Health. Background: Recent efforts to curtail the HIV epidemic in Africa have emphasized preventing sexual transmission to partners through antiretroviral therapy. A component of current strategies is disclosure to partners, thus understanding its motivations will help maximise results. This study examines the rates, dynamics and consequences of partner disclosure in Burkina [&#8230;]
+]]>
+		</document>
+		<document id="70b4fe1e351422bc7ff88c7016e9e23a" url="http://feedproxy.google.com/~r/EdgarMeij/~3/gpqqcJ1IQqE/"><![CDATA[The material for our &#8220;Entity Linking and Retrieval&#8221; tutorial (with Krisztian Balog and Daan Odijk) for WWW2013 is now available online on GitHub, Mendeley, and CodeAcademy. All material is summarized at the webpage for the tutorial: http://ejmeij.github.io/entity-linking-and-retrieval-tutorial/. See my other blogpost for a brief summary.
+]]>
+		</document>
+		<document id="4400e6b5f2400f534e75ee51ebc75038" url="http://feedproxy.google.com/~r/EdgarMeij/~3/H2vk3UptFRg/"><![CDATA[To appear at TAIA2013 (a SIGIR 2013 workshop). Document filtering over time is widely applied in various tasks such as tracking topics in online news or social media. We consider it a classification task, where topics of interest correspond to classes, and the feature space consists of the words associated to each class. In &#8220;streaming&#8221; [&#8230;]
+]]>
+		</document>
+		<document id="a2b7f093716444742294d312cb7b0b94" url="http://feedproxy.google.com/~r/EdgarMeij/~3/HgDvJphzBS8/"><![CDATA[Our tutorial proposal entitled &#8220;Entity Linking and Retrieval&#8221; (with Krisztian Balog and Daan Odijk) has been accepted at SIGIR 2013! This will be an extended version of our WWW 2013 tutorial, tailored specifically towards researchers and practitioners with an information retrieval background. See the other page for more information.
+]]>
+		</document>
+		<document id="67119da8d2d94b37d571a1693da9582f" url="http://feedproxy.google.com/~r/EdgarMeij/~3/JC2lO-_3Ajc/"><![CDATA[I&#8217;m happy to announce that we have just opened up our applications for next year&#8217;s internships at Yahoo Labs in Barcelona. So, if you&#8217;re a PhD student in a related field, do consider applying. Especially if you&#8217;re interested in spending some time in sunny Barcelona and gaining research experience along the way, you&#8217;re more than [&#8230;]
+]]>
+		</document>
+		<document id="bb770c6a2b0d7b2104ff5a4df05312e5" url="http://feedproxy.google.com/~r/EdgarMeij/~3/jJJ2rB0UcgM/"><![CDATA[To appear as full paper at SIGIR 2013. In this paper we focus on selecting meaningful tweets given a user&#8217;s interests. Specifically, we consider the task of time-aware tweets summarization, based on a user&#8217;s history and collaborative social influences from &#8220;social circles.&#8221; We propose a time-aware user behavior model, the Tweet Propagation Model (TPM), in [&#8230;]
+]]>
+		</document>
+		<document id="c246f3445fceb71aeb63289f18334813" url="http://feedproxy.google.com/~r/EdgarMeij/~3/Nb4TkYb7fAw/"><![CDATA[The material for our &#8220;Entity Linking and Retrieval&#8221; tutorial (with Krisztian Balog and Daan Odijk) for SIGIR 2013 has been updated and is available online on GitHub (slides), Dropbox (slides), Mendeley, and CodeAcademy. All material is summarized at the webpage for the tutorial: http://ejmeij.github.io/entity-linking-and-retrieval-tutorial/. See my other blogpost for a brief summary.
+]]>
+		</document>
+		<document id="7b9abe9521c4d801145c1c387527cdd5" url="http://feedproxy.google.com/~r/EdgarMeij/~3/SBLIQbR_vd4/"><![CDATA[This paper describes our (winning!) submission to the Developers Challenge at WoLE2013, &#8220;Doing Good by Linking Entities.&#8221; We present a fully automatic system – called &#8220;Semantic TED&#8221; – which provides intelligent suggestions in the form of links to Wikipedia articles for video streams in multiple languages, based on the subtitles that accompany the visual content. [&#8230;]
+]]>
+		</document>
+		<document id="5a9d39d99888dc6a3055a62881c7c6a7" url="http://feedproxy.google.com/~r/EdgarMeij/~3/tSJkQyTw2Ss/"><![CDATA[In this paper, we present an approach to query modeling that leverages the temporal distribution of documents in an initially retrieved set of documents. Query modeling is often used to better capture a user&#8217;s information need and help bridge the lexical gap between a query and the documents to be retrieved. Typical approaches consider terms [&#8230;]
+]]>
+		</document>
+		<document id="d10f7cba48bde3c1f6ae0560c2ff7de7" url="http://feedproxy.google.com/~r/EdgarMeij/~3/tu61ZxbWGk4/"><![CDATA[Our tutorial proposal entitled &#8220;Entity Linking and Retrieval for Semantic Search&#8221; (with Krisztian Balog and Daan Odijk) has been accepted at WSDM 2014! This will be the final edition of the series, building upon our earlier tutorials at WWW 2013 and SIGIR 2013. The focus of this edition will lie on the practical applications of Entity [&#8230;]
+]]>
+		</document>
+	</documents>
+</author>

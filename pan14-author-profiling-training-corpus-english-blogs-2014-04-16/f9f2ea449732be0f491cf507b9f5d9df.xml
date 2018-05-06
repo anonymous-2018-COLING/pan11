@@ -1,0 +1,82 @@
+<author type="blog" lang="EN" gender="xx" age_group="xx" url="tinmunkey.tumblr.com/">
+	<documents count="10">
+		<document id="96f4982ca02b48e4e5736d5ce29d61ab" url="http://tinmunkey.tumblr.com/post/52854868192"><![CDATA[<p><img alt="image" src="http://media.tumblr.com/71c372a859b6360fcd0550b83549a1c5/tumblr_inline_mobuxmy9cF1qz4rgp.jpg"/></p>
+<blockquote>
+<p>Sumerian cuneiform tablet</p>
+</blockquote>
+
+<p>Not coincidentally, knowledge advanced in leaps after humans started writing things down.</p>
+<p>Following on the vein of previous posts here regarding creating a set of patterns and guidelines for software design, this post is to highlight that the rationale for a design decision should be documented to ensure that “future generations” of designers in the project (basically, anyone else but you) understands what the thinking was around the issue that you were trying to resolve.</p>
+
+This &#8220;writing things down&#8221; approach may be at odds with some interpretations of the lean school of thought, where the emphasis is in the lack of documentation instead of in the gradual implementation and validation of the solution.
+]]>
+		</document>
+		<document id="93247df17d55263cc9731f5e07f7da21" url="http://tinmunkey.tumblr.com/post/52867014551"><![CDATA[<p>One of my favourite rational fallacies:</p>
+<blockquote>
+<p><a href="http://en.wikipedia.org/wiki/Post_hoc_ergo_propter_hoc">Post hoc ergo propter hoc</a>, after this, therefore because of this.</p>
+</blockquote>
+<p>This fallacy exposes arguments that are made creating correlations between events based simply in the fact that A happened before B, therefore B must be a consequence of A. FAIL</p>
+]]>
+		</document>
+		<document id="92b63865576b8a030fb4f80c2356750c" url="http://tinmunkey.tumblr.com/post/57830200386"><![CDATA[<p>We have been testing a new functionality on a group of users. This functionality was not designed for this type of users so, should their views on it affect its design?</p>
+
+<p>I am taking the approach that this is like the gay marriage laws, those that are not affected by them should not really have much to say about it, until we get the feedback from the intended users of the functionality and then, we’ll make the necessary changes.</p>
+]]>
+		</document>
+		<document id="4812f675bf0e868f937543b367baf074" url="http://tinmunkey.tumblr.com/post/58947958745"><![CDATA[<p><img src="http://media.tumblr.com/38f8b437434e364fec3f79f8fa34ef33/tumblr_inline_ms4s7tP80X1qz4rgp.jpg"/></p>
+
+<p>Sometimes, working as a UX in a software project feels like being a doctor with patients telling you that they must must<em> must</em> have antibiotics and some morphine with that, thankyouverymuch&#8230;you can see how rogue doctors may want to get an easy life and would sign anything. Just look at how it ended for Michael Jackson.</p>
+<p>As a UX, stakeholders will be asking you to add this feature, this functionality and just do it. The problem with &#8220;just doing it&#8221; is that without understanding what problem is being resolved by the feature or functionality, we may be creating more problems than solving them like the doctor that just shrugs his shoulders and signs the morphine.</p>
+]]>
+		</document>
+		<document id="87ad08c1d1cc0a10760999a028b31b4c" url="http://tinmunkey.tumblr.com/post/59381534371"><![CDATA[<p><img alt="image" src="http://media.tumblr.com/db9d276358909cf306f5f6c879fe2a8e/tumblr_inline_mrwip4diSo1qz4rgp.jpg"/></p>
+<p>From Wikipedia, the <a href="http://en.wikipedia.org/wiki/Socratic_method">socratic method</a>:</p>
+<blockquote>
+<p><span>is a form of inquiry and discussion between individuals, based on asking and answering questions to stimulate </span><a href="http://en.wikipedia.org/wiki/Critical_thinking" title="Critical thinking">critical thinking</a><span> and to illuminate ideas.</span></p>
+</blockquote>
+<p><span>Some UXrs use the rule of asking 5 times why in order to understand the underlying problem that their design will resolve which is, basically, a variation on the socratic method.</span></p>
+<p><span>The method is quite successful in unearthing the real issues to be solved with the design, but it&#8217;s important to be careful in when and how to use it as it can come across as irritating and it requires both parties in the dialog to be pretty articulate and be aware of the purpose of the exercise. </span></p>
+<p><span><a href="http://en.wikipedia.org/wiki/Socrates#Trial_and_death">Socrates</a> so irritated his contemporaries in the city of Athens that he was sentenced to death by poison&#8230;in an office, you are unlikely to be forced to drink poison because you&#8217;ve used the 5 whys method, but you do still need to be aware of when and who to use it to and, ideally, you will weave the 5 whys into a conversation, instead of just shooting them point-blank.</span></p>
+]]>
+		</document>
+		<document id="9ab0e489bb2249ba64f535e5e03255c3" url="http://tinmunkey.tumblr.com/post/65556054768"><![CDATA[<p><img src="http://media.tumblr.com/74aba6a8ec7c4cf5f5329224f2a0b905/tumblr_inline_mvi4khlC351qgtwnt.jpg"/></p>
+<p>Fig.1: Old London Bridge</p>
+<p>The area around the current <a href="http://en.wikipedia.org/wiki/London_Bridge">London Bridge</a> has been used through history as a place to cross the river Thames, initially through natural occurring swamps and estuaries, then through man-made structures, the first of them probably dating back to Roman times. Since then, the bridge has been rebuilt and repositioned many times. </p>
+<p>The current London Bridge, opened in 1973, is just the last of a long list of iterations on “London Bridge” adapting to the changing needs of the city and its citizens. The Romans did not build the bridge that we know today.</p>
+<p>Designing and building software should be seen like the iterative process of building the same bridge…no, the first iteration won’t be made of concrete and have a motorway on top…it may be a much simpler affair, but it will give us an idea if putting a bridge there is a good idea at all. Keep iterating to move from crossing the river through the swamps to a truly solid structure that meets the needs of its time. </p>
+]]>
+		</document>
+		<document id="aa99c4b03cc233c775c9a8fafe462232" url="http://tinmunkey.tumblr.com/post/67664615287"><![CDATA[<p><img src="http://media.tumblr.com/aa968720f19147246aca97bd1b565cff/tumblr_inline_mwmfjpiIaz1qgtwnt.jpg"/></p>
+
+<p>It may sound like a truism, but it is very easy for designers to forget that the product is what is actually built, not the drawings of the product, or the prototypes that have preceded it.</p>
+<p>It means that<strong> the most delicate moment of design is at the point of deciding what is actually going to be built</strong>, at the prioritisation point.</p>
+]]>
+		</document>
+		<document id="107b131882ae3afccf21260ef5f6a0a" url="http://tinmunkey.tumblr.com/post/68152195215"><![CDATA[<p><img alt="image" src="http://media.tumblr.com/8f82b0f7458d0887e8e6f1b9c76f459b/tumblr_inline_mwmfznf4O21qgtwnt.jpg"/></p>
+
+<p><a href="https://generalassemb.ly/education/lean-ux-fundamentals-one-day-workshop">Lean UX methodologies</a> allow UXrs to quickly get rid of assumptions on their designs by breaking solutions into small deliverables that can be produced rapidly so users can actually use the product, UXrs can observe how the product is actually being used (note that I say &#8220;use&#8221; and not &#8220;test&#8221;) and can refine the product based on the outcome of these observations.</p>
+<p>All this is good for problems that are new and need a discovery approach to them. For everything else, <a href="http://www.internetslang.com/JFDI-meaning-definition.asp">JFDI</a>. </p>
+]]>
+		</document>
+		<document id="7331714f430d4ec79598f485c600c796" url="http://tinmunkey.tumblr.com/post/68999351340"><![CDATA[<p><img alt="image" src="http://media.tumblr.com/297460e22efbb116376354a73552a4f8/tumblr_inline_mxarklLgXb1qgtwnt.jpg"/></p>
+
+<p>Socrates’ attributed quote of <a href="http://en.wikipedia.org/wiki/I_know_that_I_know_nothing">"I know that I know nothing"</a> is a reminder to recognise that, in order to acquire wisdom, one has to be curious and interrogate assumptions. Only by starting from ignorance, one can be open to new insights.</p>
+<p>This approach is sometimes used, knowingly or otherwise, by UXers, who will not be able to design a piece of software without doing in-depth research on users, as they just don’t know what the user does/thinks/feels/etc…</p>
+<p>Although I do agree with the need to do user research before designing, I must admit that I find this attitude somehow <strong>obstructive</strong> in a delivery-focused environment:</p>
+<ul><li><span>Having more data or information won’t necessarily result in a better design. Data or information overload may mask more visceral issues that need to be resolved</span></li>
+<li><span>Design is not an exact science, there isn’t a single, holy grail-like, solution to your problem. Honest.</span></li>
+<li><span>Delivery projects are, yes, delivery focused, so they tend to have very little scope for research. Constantly stalling delivery teams with the “I don’t have enough information to make a decision” will end up in these teams bypassing UX entirely. You may have found the “holy grail-like solution” but if your delivery team has moved on, this solution will never be built, will never be enjoyed by anyone. Sad, isn’t it?</span></li>
+<li>Research is not the only thing that informs a design: experience, standards, best practice, etc… should also play a part at the design stage. Make assumptions, document them, caveat your solutions. Give.Solutions.</li>
+</ul><p><span>Research is a great way to gain insight and understanding that can drive innovation, but <strong>not all projects are looking for innovation</strong>. Pick your battles, the ones that are not worth it, <a href="http://www.internetslang.com/JFDI-meaning-definition.asp">jfdi</a>.</span></p>
+]]>
+		</document>
+		<document id="bc7a07375db10d369c89e49fc84ced9c" url="http://tinmunkey.tumblr.com/post/69263957331"><![CDATA[<p><img alt="image" src="http://media.tumblr.com/6a0b5f09f4f20ddec4f2695099b7c827/tumblr_inline_mxft98rrvu1qgtwnt.jpg"/></p>
+
+<p>"Well, he didn&#8217;t come up with <a href="http://en.wikipedia.org/wiki/Quantum_mechanics">quantum mechanics</a>, now did he? or with the <a href="http://en.wikipedia.org/wiki/Theory_of_relativity">theory of relativity</a>, uh? he just wrote that <a href="http://en.wikipedia.org/wiki/Principia_Mathematica">Latin book about gravity or whatever</a>&#8221;</p>
+<p>So many times, I hear UXers talking on those terms about work that has happened in a program <em>before</em> they joined which, invariably, leads them to start <em>everything</em> from scratch, because their ideas are soooo much better than anyone else&#8217;s, obviously. Which, of course, means that thinking never advances as we are all too focused in having the same ideas that previous UXrs have had&#8230;</p>
+<p>Our thinking is constrained by the context where that thinking occurs: Newton wasn&#8217;t more stupid than, say, Einstein, his thinking was intimately joined to his context. Einstein did not start from scratch to come up with his theory of relativity, he was aware of the thousand of years of physics prior to him <a href="https://www.ige.ch/en/about-us/einstein/einstein-at-the-patent-office.html">sitting at that patent office</a>&#8230;</p>
+<p><strong>Interrogate and prod design decisions and assumptions with the purpose of understanding them and their context before criticising them.</strong></p>
+]]>
+		</document>
+	</documents>
+</author>

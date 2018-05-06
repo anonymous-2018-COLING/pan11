@@ -1,0 +1,34 @@
+<author type="blog" lang="EN" gender="xx" age_group="xx" url="www.optimizationzen.com">
+	<documents count="10">
+		<document id="3d7d170ab06b8641111c04ed9e2f3576" url="http://www.optimizationzen.com/2011/12/27/apmod-early-bird-deadline-ends-december-31st/"><![CDATA[The APMOD &#8216;Early Bird&#8217; registration phase &#8211; just like the year 2011 &#8211; is coming to a close. If you register before December 31st, you get your delegate ticket for 300 Euros or your student (BA/MA only) ticket for 120 Euros. In both cases you are saving 80 Euros compared to the regular price. Below [...]
+]]>
+		</document>
+		<document id="ef50287717e0810f49a2c61501cbecea" url="http://www.optimizationzen.com/2011/12/27/glpk-for-optimization-framework/"><![CDATA[Today we released a new NuGet package, which allows you to use GLPK with the Optimization.Framework. The great thing about this package is that - it will also install the Optimization.Framework automatically - it will install the precompiled assemblies of GLPK - it configures the paths to the assemblies by changing your app.config file accordingly [...]
+]]>
+		</document>
+		<document id="9222e0584b69c86ee0b4a603618283ae" url="http://www.optimizationzen.com/2012/01/18/apmod-program-is-online/"><![CDATA[The APMOD program is now online!
+]]>
+		</document>
+		<document id="ad7e130045d66ac2326ea34e40d25ca3" url="http://www.optimizationzen.com/2012/02/13/optimization-framework-donation-received/"><![CDATA[Today I got a surprise visit from Jochen, a student, who just finished his bachelor thesis at the group of Prof. Kundisch (Information Management and E-Finance). He had been using the Optimization.Framework in his thesis and wanted to say thank you for the Framework and a few hints I had given him. Not only did [...]
+]]>
+		</document>
+		<document id="63b01ce17319befd22ef184f046147b1" url="http://www.optimizationzen.com/2012/03/04/apmod-2012-two-workshops-announced/"><![CDATA[At APMOD 2012 conference in Paderborn there will be two workshops, one on the Optimization.Framework, which will be held by Jens Peter Kempkes and Lars Beckmann and one on Pyomo which will be held by Jean-Paul Watson and John Siirola. If you are interested in attending, use the links next to the title to register: [...]
+]]>
+		</document>
+		<document id="c16faeca6f9d5a5fb44e6df38991fa3a" url="http://www.optimizationzen.com/2012/04/23/optimization-framework-forum/"><![CDATA[We had a few requests for a forum where people can ask questions about the Optimization.Framework recently, so here it is: https://groups.google.com/forum/#!forum/optimizationframework-forum. Lars
+]]>
+		</document>
+		<document id="254b0ab8eec21b3c86b793eee8fd83e" url="http://www.optimizationzen.com/2012/05/04/optimization-framework-adds-solver-binding-for-gurobi-5-0/"><![CDATA[You may have heard, that Gurobi has released the next version of their solver software. Today we released version 0.3.1062.0 of the Optimization.Framework which adds support for Gurobi 5.0. As always, you can get the latest version of the Optimization.Framework from the Nuget repository: http://nuget.org/packages/Optimization.Framework.
+]]>
+		</document>
+		<document id="48aac5d8ae2a733b11b6567b53b8dca2" url="http://www.optimizationzen.com/2012/08/27/glpksolver-for-optimization-framework-adds-support-for-reading-mod-and-dat-files/"><![CDATA[The GLPKSolver package (available here for the Optimization.Framework is now able read .mod and .dat files into your model. Usage: var model = new Model(); model.Load("diet.mod", "diet.dat"); You can then go ahead and work with the model, i.e. solve or manipulate it.
+]]>
+		</document>
+		<document id="c5c7ac38609fa5e48cdb69735b5f0d1c" url="http://www.optimizationzen.com/2013/01/06/ics-and-glpk-js/"><![CDATA[Yesterday I attended CooprFest, which was great fun! When we were out for dinner a few people told me that there was a Javascript implementation of GLPK! Henri Gourvest created a library called GLPK.js which is hosted on Github. So if you ever wanted to solve (small) MIP models in the browser, well, now you [...]
+]]>
+		</document>
+		<document id="ba6cd4721a7a6cfa3a1392a85504fd3a" url="http://www.optimizationzen.com/2013/04/18/optimization-framework-js/"><![CDATA[Today we are showcasing the first (very early) version of the Optimization.Framework.JS. As you might have guessed by now, it is a port of the Optimization.Framework to JavaScript. Actually, we could have called it Optimization.Framework.TS, because it is entirely written in TypeScript. If you don&#8217;t know TypeScript I recommend to check it out, it is [...]
+]]>
+		</document>
+	</documents>
+</author>
