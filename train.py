@@ -37,10 +37,10 @@ flags.DEFINE_string("char_filter-sizes", "3,4,5", "Comma-separated filter sizes 
 flags.DEFINE_integer("char_num_filters", 256, "Number of filters per filter size (default: 256)")
 flags.DEFINE_float("char_dropout_keep", 1.0, "Char-level dropout keep probability (default: 1.0)")
 
-flags.DEFINE_integer("max_len_word", 10, "Number of words in a sequence (default: 10)")
+flags.DEFINE_integer("max_len_word", 150, "Number of words in a sequence (default: 150)")
 flags.DEFINE_integer("word2vec_dim", 300, "Dimensionality of word embedding (default: 300)")
-flags.DEFINE_integer("word_num_filters", 256, "Number of filters per filter size (default: 256)")
-flags.DEFINE_string("word_filter_sizes", "2,4,5,9", "Comma-separated filter sizes (default: 2,4,5,9)")
+flags.DEFINE_integer("word_num_filters", 200, "Number of filters per filter size (default: 200)")
+flags.DEFINE_string("word_filter_sizes", "3,4,5", "Comma-separated filter sizes (default: 3,4,5)")
 flags.DEFINE_float("word_dropout_keep", 1.0, "Word-level dropout keep probability (default: 1.0)")
 
 flags.DEFINE_integer("num_topics", 200, "Number of LDA topics")
@@ -69,7 +69,7 @@ flags.DEFINE_boolean("multi_task", False, "Train profile data (default: False)")
 # flags.DEFINE_integer("multi_task_every", 6, "Train model on profile data after this many steps (default: 6)")
 flags.DEFINE_float("tl_learning_rate", 0.0008, "TL learning rate (default: 0.0008)")
 flags.DEFINE_integer("tl_num_epochs", 30, "Number of TL training epochs (default: 200)")
-flags.DEFINE_integer("tl_batch_size", 1024, "TL batch Size (default: 1024)")
+flags.DEFINE_integer("tl_batch_size", 256, "TL batch Size (default: 256)")
 
 # Misc Parameters
 flags.DEFINE_boolean("allow_soft_placement", True, "Allow device soft device placement")

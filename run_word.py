@@ -9,7 +9,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 def load_data():
     # load word2vec
     #word2vec = KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
-    word2vec = get_json('./word_embedding_dic.json')
+    word2vec = get_json('.dict_data/word_embedding_dic.json')
     print('word_vectors loaded')
 
     # load train data

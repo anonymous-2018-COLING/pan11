@@ -53,16 +53,17 @@ class MTANet(object):
         self.build_arch()
 
     def _input_info(self):
-        print('=' * 100)
+        print("=" * 100)
         print('INFO:')
         print(self.x_char)
         print(self.x_word)
         print(self.x_topic)
         print(self.y)
         print(self.y_profile)
+        print("=" * 50)
 
     def build_arch(self):
-        emb_char = self._char_model()
+        emb_char = self.char_model()
         emb_word = self._word_model()
         emb_topic = self._topic_model()
         emb = self._feature_fusion(emb_char, emb_word, emb_topic)
@@ -82,6 +83,8 @@ class MTANet(object):
         if self.pos_info:
             embedded_char = self._positional_encoding(embedded_char)
 
+        # CNN N-GRAMS   效果贼好那个。
+        # ===================================================================================
         # B,T,D -> B,T,D,1
         conv_input = tf.expand_dims(embedded_char, -1)
         pooled_outputs = []
@@ -116,38 +119,29 @@ class MTANet(object):
         print("CHAR Model Done.")
         return h_pool_flat
 
-    # def _char_model_back(self):
-    #     with tf.device("/cpu:0"), tf.name_scope("char_embedding"):
-    #         # vocab size * hidden size
-    #         embedding_var = tf.get_variable(
-    #             name='embedding',
-    #             shape=[self.char_size, self.embedding_size],
-    #             trainable=True, )
-    #         self.embedded_char = tf.nn.embedding_lookup(embedding_var, self.x_char)  # b,150,5
-    #
-    #     self.char_cell = tf.nn.rnn_cell.BasicLSTMCell(self.hidden_state_char)
-    #     self.word_cell = tf.nn.rnn_cell.BasicLSTMCell(self.hidden_state_word)
-    #
-    #     word_inputs = []
-    #     batch_size = len(self.y)
-    #     for i in range(batch_size):
-    #         with tf.variable_scope('batch' + str(i)):
-    #             char_inputs = self.embedded_char[i, :, :, :]  # b, t, d
-    #             char_inputs = tf.split(value=char_inputs, num_or_size_splits=self.max_len_char, axis=1,
-    #                                    name='split')  # t lists of b,1,d
-    #             char_inputs = [tf.reshape(char_input, [self.max_len_word, self.embedding_size]) for
-    #                            char_input in char_inputs]  # t lists of b,d
-    #             char_init_state = self.char_cell.zero_state(self.max_len_word, dtype=tf.float32)
-    #             _, (c_state, h_state) = tf.nn.static_rnn(self.char_cell, char_inputs, char_init_state)
-    #             word_inputs.append(h_state)  # batch_size lists of word_len_max, config.hidden_state_char
-    #     word_inputs = tf.concat([tf.expand_dims(word_input, axis=0) for word_input in word_inputs], axis=0)
-    #     word_inputs = tf.split(value=word_inputs, num_or_size_splits=self.max_len_word, axis=1, name='split2')
-    #     word_inputs = [tf.reshape(word_input, [-1, self.hidden_state_char]) for word_input in
-    #                    word_inputs]
-    #     word_init_state = self.word_cell.zero_state(batch_size, dtype=tf.float32)
-    #     _, (_, word_h_state) = tf.nn.static_rnn(self.word_cell, word_inputs, word_init_state)
-    #     print("CHAR Model Done.")
-    #     return word_h_state
+    def char_model(self):
+        # B,T -> B,T,D
+        with tf.device("/cpu:0"), tf.name_scope("char_embedding"):
+            # vocab size * hidden size
+            embedding_var = tf.get_variable(
+                name='char_embedding',
+                shape=[self.char_size, self.char_embedding_dim],
+                trainable=True, )
+            embedded_char = tf.nn.embedding_lookup(embedding_var, self.x_char)  # B, T, D
+        # LSTM
+        # ===================================================================================
+        with tf.name_scope("bi-LSTM"):
+            bi_outputs, _ = tf.nn.bidirectional_dynamic_rnn(tf.contrib.rnn.GRUCell(256),
+                                                            tf.contrib.rnn.GRUCell(256),
+                                                            inputs=embedded_char, dtype=tf.float32)  # BTH*2
+        h = tf.concat(bi_outputs, 2)  # B,T,H*2
+        h = tf.expand_dims(h, -1)
+        q_pooling = tf.nn.avg_pool(value=h, ksize=[1, self.max_len_char, 1, 1],
+                                   padding='VALID', strides=[1, 1, 1, 1], name='biRNN_pooling')  # B,2H
+        q_squeezed = tf.squeeze(input=q_pooling, squeeze_dims=[1, 3])
+        print("CHAR LEVEL OUTPUT", q_squeezed)
+        print("CHAR-LSTM Model Done.")
+        return q_squeezed
 
     def _word_model(self):
         if self.pos_info:
@@ -194,17 +188,19 @@ class MTANet(object):
     def _feature_fusion(self, emb_char, emb_word, emb_topic):
         with tf.name_scope('fc_char'):
             char_dropout = tf.nn.dropout(emb_char, self.char_dropout_keep)
+            print("???", char_dropout)
             char_output = tf.layers.dense(inputs=char_dropout, units=self.fc_units)
         with tf.name_scope('fc_word'):
             word_dropout = tf.nn.dropout(emb_word, self.word_dropout_keep)
             word_output = tf.layers.dense(inputs=word_dropout, units=self.fc_units)
         with tf.name_scope('fc_topic'):
             topic_dropout = tf.nn.dropout(emb_topic, self.topic_dropout_keep)
-            topic_output = tf.layers.dense(inputs=topic_dropout, units=self.fc_units)
+            topic_output2 = tf.layers.dense(inputs=topic_dropout, activation=tf.nn.tanh, units=self.fc_units)
+            topic_output = tf.layers.dense(inputs=topic_output2, activation=tf.nn.tanh, units=self.fc_units)
         values = []
-        tensor_list = [char_output, word_output, topic_output]
+        tensor_list = [char_output, emb_word, topic_output]
         for level in self.difficulty:
-            values.append(tensor_list[level-1])
+            values.append(tensor_list[level - 1])
         emb = tf.concat(values, axis=1)
         return emb
 
@@ -232,24 +228,26 @@ class MTANet(object):
     def personality_prediction(self, emb):
         fc_dropout = tf.nn.dropout(emb, self.dropout_keep_prob)
 
-        with tf.name_scope('PP_age'):
-            logits_age = tf.layers.dense(inputs=fc_dropout, units=5)
-            age_labels = tf.one_hot(indices=self.y_profile[:, 0], depth=5)
-            age_loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=logits_age, labels=age_labels),
-                                      name="age_loss")
-            age_accuracy = tf.reduce_mean(
-                tf.cast(tf.equal(tf.argmax(input=logits_age, axis=1), tf.argmax(input=age_labels, axis=1)), tf.float32),
-                name="age_acc")
-
         with tf.name_scope('PP_gender'):
             logits_gender = tf.layers.dense(inputs=fc_dropout, units=2)
-            gender_labels = tf.one_hot(indices=self.y_profile[:, 1], depth=2)
+            print(self.y_profile[:, 0])
+            gender_labels = tf.one_hot(indices=self.y_profile[:, 0], depth=2)
+            print(gender_labels)
             gender_loss = tf.reduce_mean(
                 tf.nn.softmax_cross_entropy_with_logits(logits=logits_gender, labels=gender_labels), name="gender_loss")
             gender_accuracy = tf.reduce_mean(
                 tf.cast(tf.equal(tf.argmax(input=logits_gender, axis=1), tf.argmax(input=gender_labels, axis=1)),
                         tf.float32),
                 name="gender_acc")
+
+        with tf.name_scope('PP_age'):
+            logits_age = tf.layers.dense(inputs=fc_dropout, units=5)
+            age_labels = tf.one_hot(indices=self.y_profile[:, 1], depth=5)
+            age_loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=logits_age, labels=age_labels),
+                                      name="age_loss")
+            age_accuracy = tf.reduce_mean(
+                tf.cast(tf.equal(tf.argmax(input=logits_age, axis=1), tf.argmax(input=age_labels, axis=1)), tf.float32),
+                name="age_acc")
 
         print("PP DONE")
         return age_loss + gender_loss, (age_accuracy, gender_accuracy)

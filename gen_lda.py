@@ -11,7 +11,7 @@ logging.root.level = logging.WARNING
 
 
 def gen_lda_model(docs, num_topics, is_filter=False):
-    processed_docs = [tokenize(doc) for doc in docs]
+    processed_docs = [tokenize(doc, mode="word") for doc in docs]
     word_count_dict = gensim.corpora.Dictionary(processed_docs)
     print('there are', len(word_count_dict), 'unique tokens')
     if is_filter:
